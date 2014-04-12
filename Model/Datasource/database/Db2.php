@@ -18,6 +18,8 @@
  * @link          http://cakephp.org CakePHP(tm) Project
  * @since         CakePHP Datasources v 0.1
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
+ * @author        Walison Soares <admin_walison@batepapobrasil.com>
+ * @version       1.0
  */
 App::uses('DboSource', 'Model/Datasource');
  
@@ -107,7 +109,7 @@ class Db2 extends DboSource {
 	protected $_resultMap = array();
      
 /**
- * Nome do schema que estรก sendo utilizado.
+ * Nome do schema que estร�? sendo utilizado.
  *
  * @var string
  */
